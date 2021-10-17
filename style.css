@@ -550,3 +550,135 @@ img {
 .tagLine {
 	color: white;
 }
+
+/* NEW NAV BAR */
+/* importing fonts */
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap");
+@font-face {
+	font-family: Overcame;
+	src: url(fonts/Overcame/*);
+}
+/* Variables */
+:root {
+	/* --font-family: 'Roboto Slab', serif; */
+	--font-family: "Overcame", Regular;
+	--normal-font: 400;
+	--bold-font: 700;
+	--bolder-font: 900;
+	--primary-color: #619ddd;
+	--secondary-color: #06305c;
+	--primary-shadow: #8b8eaf;
+	--secondary-shadow: #a17a69;
+	--bg-color: #fcfcfc;
+	--transition: 0.3s;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+/* CSS Reset */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+ul {
+	list-style-type: none;
+}
+
+a {
+	text-decoration: none;
+	color: var(--primary-color);
+}
+
+a:hover {
+	color: var(--secondary-color);
+}
+
+body {
+	font-family: var(--font-family);
+}
+
+nav {
+	display: flex;
+	position: sticky;
+	top: 0;
+	left: 0;
+	z-index: 1;
+	align-items: center;
+	justify-content: space-between;
+	background-color: var(--bg-color);
+	padding: 1.5rem 3.5rem;
+	box-shadow: 0px 4px 20px 6px rgb(0 0 0 / 50%);
+	background-color: #1a242e;
+	position: fixed;
+	width: 100%;
+	font-size: 24px;
+}
+
+.logo-cc {
+	height: 3rem;
+	width: 3rem;
+}
+
+.logo-cc img {
+	height: 8rem;
+	width: 8rem;
+}
+
+nav a {
+	color: var(--primary-color);
+	transition: var(--transition);
+}
+
+nav a:hover {
+	color: var(--secondary-color);
+	border-bottom: 2px solid --secondary-color;
+}
+
+nav ul {
+	display: flex;
+	gap: 6rem;
+}
+
+.hamburger-menu {
+	color: var(--primary-color);
+	font-size: 2rem;
+	border: 0;
+	background-color: transparent;
+	cursor: pointer;
+	display: none;
+}
+
+.welcome {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 8rem;
+	max-width: 64rem;
+	margin: 5rem auto;
+}
+
+.welcome-img {
+	height: 16rem;
+	width: 24rem;
+}
+
+.welcome-note {
+	width: 25rem;
+	height: 16rem;
+	border-radius: 6px;
+	padding: 1.625rem;
+	box-shadow: 0px 2px 15px 2px var(--primary-shadow);
+}
+
+.welcome-h {
+	margin-bottom: var(--bottom-margin);
+}
+
+.welcome-text {
+	line-height: var(--line-height);
+	padding: 0.3rem 0;
+}
