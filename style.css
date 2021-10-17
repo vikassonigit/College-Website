@@ -68,12 +68,12 @@ ul li a {
 	text-decoration: none;
 	transition: 0.25s ease-in-out;
 	font-weight: 700;
-	color: rgb(196, 4, 78);
+	color: rgb(255, 255, 255);
 }
 
 ul li a:hover {
-	color: #ff7235;
-	text-decoration: underline;
+	color: #195aa0;
+	/* text-decoration: underline; */
 }
 
 .part2 {
@@ -557,6 +557,8 @@ img {
 @font-face {
 	font-family: Overcame;
 	src: url(fonts/Overcame/*);
+	font-family: Binary;
+	src: url(fonts/Binary/*)
 }
 /* Variables */
 :root {
@@ -650,35 +652,4 @@ nav ul {
 	background-color: transparent;
 	cursor: pointer;
 	display: none;
-}
-
-.welcome {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	gap: 8rem;
-	max-width: 64rem;
-	margin: 5rem auto;
-}
-
-.welcome-img {
-	height: 16rem;
-	width: 24rem;
-}
-
-.welcome-note {
-	width: 25rem;
-	height: 16rem;
-	border-radius: 6px;
-	padding: 1.625rem;
-	box-shadow: 0px 2px 15px 2px var(--primary-shadow);
-}
-
-.welcome-h {
-	margin-bottom: var(--bottom-margin);
-}
-
-.welcome-text {
-	line-height: var(--line-height);
-	padding: 0.3rem 0;
 }
