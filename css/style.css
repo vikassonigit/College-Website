@@ -33,7 +33,7 @@ body {
 	transition: 0.5s ease-in-out;
 }
 
-.logo {
+.logo-cc {
 	margin-left: 2rem;
 	display: flex;
 	align-items: center;
@@ -41,11 +41,11 @@ body {
 	margin-bottom: 1.2rem;
 }
 
-.logo-img img {
+.logo-cc-img img {
 	height: 3rem;
 }
 
-.logo-title {
+.logo-cc-title {
 	font-size: 0.9rem;
 	font-weight: 700;
 	text-transform: uppercase;
