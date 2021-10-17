@@ -12,75 +12,11 @@ body {
 	font-family: "roboto";
 	overflow-x: hidden;
 }
-
-.part1 {
-	position: fixed;
-	top: 0;
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	font-size: 1.1rem;
-	font-weight: 700;
-	font-family: "roboto", "sanserif";
-	color: rgb(196, 4, 78);
-	padding-top: 3rem;
-	padding-bottom: 1.5rem;
-	border-bottom: 1px solid rgba(0, 0, 0, 0.3);
-	height: 2rem;
-	z-index: 4;
-	background-color: rgba(255, 255, 255, 0.8);
-	width: 100%;
-	transition: 0.5s ease-in-out;
-}
-
-.logo-cc {
-	margin-left: 2rem;
-	display: flex;
-	align-items: center;
-	justify-content: space-around;
-	margin-bottom: 1.2rem;
-}
-
-.logo-cc-img img {
-	height: 3rem;
-}
-
-.logo-cc-title {
-	font-size: 0.9rem;
-	font-weight: 700;
-	text-transform: uppercase;
-	letter-spacing: 1px;
-	margin-left: 1rem;
-}
-
-.navbar ul {
-	display: flex;
-}
-
-ul li {
-	text-decoration: none;
-	list-style: none;
-	margin-right: 2.2rem;
-	margin-bottom: 1.2rem;
-}
-
-ul li a {
-	text-decoration: none;
-	transition: 0.25s ease-in-out;
-	font-weight: 700;
-	color: rgb(255, 255, 255);
-}
-
-ul li a:hover {
-	color: #195aa0;
-	/* text-decoration: underline; */
-}
-
 .part2 {
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
-	height: 110vh;
+	height: 90vh;
 }
 
 #coding-vector {
@@ -457,4 +393,11 @@ body {
 	font-family: Verdana, sans-serif;
 }
 
-/* NEW NAV BAR */
+/* Div end animation */
+body {
+	margin: 0;
+}
+
+svg {
+	width: 100%;
+}
