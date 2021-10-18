@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="css/navbar.css" />
     <link rel="stylesheet" href="css/progressBar.css" />
     <link rel="stylesheet" href="css/waveAnim.css">
+    <link rel="stylesheet" href="css/contact.css">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
     <!-- title -->
@@ -269,7 +270,6 @@
         </div>
     </section>
     <!-- Video Section Start -->
-
     <!-- <div class="part7">
             <div class="contact-form">
                 <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfhCzMFxjZmeqK6EsQMfsJq2MdVwenyDjl_cgc-Ze5S_xoyUw/viewform?embedded=true" width="500" height="629" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
@@ -279,34 +279,62 @@
                 <h2>Get In Touch </h2>
             </div>
         </div> -->
-
-
     <!-- Contact Us Section Start  -->
-    <section class="part8" id="contact-us">
+    <!-- <section class="part8" id="contact-us">
         <div class="contact-form" data-aos="zoom-in">
             <form action="#">
                 <div class="name text-box">
-                    <!-- <label for="name">Name</label> -->
-                    <input type="text" id="name" placeholder="Enter Your Name" required />
+                    <label for="name">Name</label>
+    <input type="text" id="name" placeholder="Enter Your Name" required />
+    </div>
+    <div class="Email text-box">
+        <label for="Email">Email Id</label>
+        <input type="text" id="Email" placeholder="james@abc.com" required />
+    </div>
+    <div class="comment text-box">
+        <label for="comment">Comment</label>
+        <textarea name="comment" id="comment-box" cols="30" rows="10" placeholder="Enter Your Comment here"
+            required></textarea>
+    </div>
+    <div class="submit text-box">
+        <button type="submit" id="submit">submit</button>
+    </div>
+    </form>
+    </div>
+    <div class="p7-title" data-aos="fade-left">
+        <h1 id="query">Queries ?</h1>
+        <h2>Get In Touch</h2>
+    </div>
+    </section>  -->
+    <section style="background-color: #1b1b1b; padding-top: 5rem;padding-bottom: 5rem;">
+        <div id="container" style="background-color: white;">
+            <form action="#" method="post" id="contact_form">
+                <div class="name">
+                    <label for="name"></label>
+                    <input type="text" placeholder="My name is" name="name" id="name_input" required>
                 </div>
-                <div class="Email text-box">
-                    <label for="Email">Email Id</label>
-                    <input type="text" id="Email" placeholder="james@abc.com" required />
+                <div class="email">
+                    <label for="email"></label>
+                    <input type="email" placeholder="My e-mail is" name="email" id="email_input" required>
                 </div>
-                <div class="comment text-box">
-                    <label for="comment">Comment</label>
-                    <textarea name="comment" id="comment-box" cols="30" rows="10" placeholder="Enter Your Comment here"
+                <div class="telephone">
+                    <label for="name"></label>
+                    <input type="text" placeholder="My number is" name="telephone" id="telephone_input" required>
+                </div>
+                <div class="subject">
+                    <label for="subject"></label>
+                    <input type="text" placeholder="Subject" name="Subject" id="subject_input" required>
+                </div>
+                <div class="message">
+                    <label for="message"></label>
+                    <textarea name="message" placeholder="I'd like to chat about" id="message_input" cols="30" rows="5"
                         required></textarea>
                 </div>
-                <div class="submit text-box">
-                    <button type="submit" id="submit">submit</button>
+                <div class="submit">
+                    <input type="submit" value="Send Message" id="form_button" />
                 </div>
-            </form>
-        </div>
-        <div class="p7-title" data-aos="fade-left">
-            <h1 id="query">Queries ?</h1>
-            <h2>Get In Touch</h2>
-        </div>
+            </form><!-- // End form -->
+        </div><!-- // End #container -->
     </section>
     <!-- Contact Us Section End -->
 

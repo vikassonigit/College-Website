@@ -280,7 +280,7 @@ body {
 	font-weight: 400;
 }
 
-.part8 {
+/* .part8 {
 	display: flex;
 	flex: 2, 1;
 	justify-content: space-around;
@@ -291,14 +291,14 @@ body {
 	padding-bottom: 2rem;
 }
 
-form {
+ form {
 	display: flex;
 	flex-direction: column;
 	border: 3px solid green;
 	padding: 2rem;
 	border-radius: 1rem;
 	background-color: white;
-}
+} 
 
 .p8-head {
 	text-align: center;
@@ -307,7 +307,7 @@ form {
 	margin-bottom: 2.5rem;
 }
 
-label {
+ label {
 	font-family: "Times New Roman", Times, serif;
 	color: green;
 	font-size: 1.8rem;
@@ -373,7 +373,7 @@ textarea {
 	display: flex;
 	justify-content: center;
 }
-
+*/
 .part9 {
 	height: 20vh;
 	background-color: #1b1b1b;
