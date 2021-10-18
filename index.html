@@ -2,90 +2,112 @@
 <html lang="en">
 
 <head>
+    <!-- meta data -->
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Home Page</title>
-    <link rel="stylesheet" href="style.css" />
+
+    <!-- css links -->
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/slider.css" />
+    <link rel="stylesheet" href="css/navbar.css" />
+    <link rel="stylesheet" href="css/progressBar.css" />
+    <link rel="stylesheet" href="css/waveAnim.css">
+    <link rel="stylesheet" href="css/contact.css">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!-- title -->
+    <title>Home Page</title>
 </head>
 
 <body>
-    <div class="whole">
-        <!-- <div class="part1">
-            <div class="logo">
-                <div class="logo-img">
-                    <img src="img/csf.png" alt="" />
-                </div>
-                <div class="logo-title">
-                    <h1>CodeChef ITMUR Chapter</h1>
-                </div>
-            </div>
 
-            <div class="navbar">
-                <ul>
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#about-us">About Us</a></li>
-                    <li><a href="#events">Events</a></li>
-                    <li><a href="#video">Videos</a></li>
-                    <li><a href="#contact-us">Contact Us</a></li>
-                </ul>
-            </div>
-        </div> -->
-        <nav>
-        <div class="logo-cc">
-            <img src="img/itm_logo.png" alt="">
+    <!-- Nav Bar Start -->
+    <!-- Progress Bar -->
+    <div id="progressBar"></div>
+    <div id="scrollPath"></div>
+    <nav>
+        <div class="logo-cc-cc">
+            <a href="#top">
+                <img src="img/itm_logo.png" alt="">
+            </a>
         </div>
         <ul>
             <li><a href="#home">Home</a></li>
-            <li><a href="#events">Events</a></li>
-            <li><a href="#announcments">Announcments</a></li>
             <li><a href="#about-us">About Us</a></li>
+            <li><a href="#events">Events</a></li>
+            <li><a href="#video">Video</a></li>
+            <li><a href="#contact-us">Contact Us</a></li>
         </ul>
         <button class="hamburger-menu">
             <ion-icon name="grid-outline"></ion-icon>
         </button>
     </nav>
-    </div>
-    <!-- parent div height = 110vh, child div color 1b1b1b -->
-    <br><br><br><br>
-    <div class="sliderParent">
-        <div class="slideshow-container">
-            <div class="mySlides fade">
-                <div class="numbertext">1 / 3</div>
-                <img src="img/img1.png" style="width:100%" alt="img1">
-                <div class="text">Caption Text</div>
+    <!-- Nav Bar End -->
+
+
+    <!-- Slider Start -->
+    <section>
+        <div class="sliderParent" id="top">
+            <div class="slideshow-container">
+                <div class="mySlides fade">
+                    <div class="numbertext">1 / 3</div>
+                    <img src="img/img1.png" style="width:100%" alt="img1">
+                    <div class="text">Caption Text</div>
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="numbertext">2 / 3</div>
+                    <img src="img/img2.png" style="width:100%" alt="img2">
+                    <div class="text">Caption Two</div>
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="numbertext">3 / 3</div>
+                    <img src="img/img3.png" style="width:100%" alt="img3">
+                    <div class="text">Caption Three</div>
+                </div>
+
+            </div>
+            <br>
+
+            <div style="text-align:center">
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
             </div>
 
-            <div class="mySlides fade">
-                <div class="numbertext">2 / 3</div>
-                <img src="img/img2.png" style="width:100%" alt="img2">
-                <div class="text">Caption Two</div>
+            <script src="js/script.js"></script>
+            <!-- div for tagline start -->
+            <div class="tagLine">
+                <br><br>
+                <p>tagLine</p>
             </div>
-
-            <div class="mySlides fade">
-                <div class="numbertext">3 / 3</div>
-                <img src="img/img3.png" style="width:100%" alt="img3">
-                <div class="text">Caption Three</div>
+            <!-- div for tagline  -->
+        </div>
+        <!-- Div for  -->
+        <div class="waveWrapper waveAnimation" style="z-index: -500;">
+            <div class="waveWrapperInner bgTop">
+                <div class="wave waveTop"
+                    style="background-image: url('http://front-end-noobs.com/jecko/img/wave-top.png')">
+                </div>
             </div>
-
+            <div class="waveWrapperInner bgMiddle">
+                <div class="wave waveMiddle"
+                    style="background-image: url('http://front-end-noobs.com/jecko/img/wave-mid.png')">
+                </div>
+            </div>
+            <div class="waveWrapperInner bgBottom">
+                <div class="wave waveBottom"
+                    style="background-image: url('http://front-end-noobs.com/jecko/img/wave-bot.png')">
+                </div>
+            </div>
         </div>
-        <br>
+    </section>
+    <!-- Slider End  -->
 
-        <div style="text-align:center">
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-        </div>
-
-        <script src="script.js"></script>
-        <div class="tagLine">
-            <br><br>
-            <p>tagLine</p>
-        </div>
-    </div>
-
-    <div class="part2" id="home" data-aos="fade-right">
+    <!-- Intro Section Start  -->
+    <section class="part2" id="home" data-aos="fade-right">
         <div class="vector">
             <img src="img/vector.png" alt="vector art coding" id="coding-vector" />
         </div>
@@ -110,9 +132,12 @@
                 </p>
             </div>
         </div>
-    </div>
+    </section>
 
-    <div class="part4">
+    <!-- Intro Section End  -->
+
+    <!-- Chapter Leader Section Start  -->
+    <section class="part4">
         <div class="p4-head" data-aos="fade-down">
             <p>Our Chapter Leaders</p>
         </div>
@@ -146,9 +171,11 @@
                 </div>
             </div>
         </div>
-    </div>
+    </section>
+    <!-- Chapter Leader Section End -->
 
-    <div class="part3" id="about-us">
+    <!-- About Us Section Start  -->
+    <section class="part3" id="about-us">
         <div class="about-vector" data-aos="fade-right">
             <img src="img/about.svg" alt="" />
         </div>
@@ -173,9 +200,13 @@
                 knowledge.
             </div>
         </div>
-    </div>
+    </section>
 
-    <div class="part5" id="events">
+    <!-- About Us Section End -->
+
+
+    <!-- Our Event Section Start  -->
+    <section class="part5" id="events">
         <div class="p5-head" data-aos="fade-up">
             <h1>Our Events</h1>
         </div>
@@ -221,9 +252,12 @@
                 </div>
             </div>
         </div>
-    </div>
+    </section>
 
-    <div class="part6" id="video">
+    <!-- Our Event Section End  -->
+
+    <!-- Video Section Start -->
+    <section class="part6" id="video">
         <div class="p6-title" data-aos="fade-right">
             <h1>Watch Us</h1>
             <h1 id="youtube">On Youtube !</h1>
@@ -234,8 +268,8 @@
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowfullscreen></iframe>
         </div>
-    </div>
-
+    </section>
+    <!-- Video Section Start -->
     <!-- <div class="part7">
             <div class="contact-form">
                 <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfhCzMFxjZmeqK6EsQMfsJq2MdVwenyDjl_cgc-Ze5S_xoyUw/viewform?embedded=true" width="500" height="629" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
@@ -245,12 +279,9 @@
                 <h2>Get In Touch </h2>
             </div>
         </div> -->
-
-    <div class="part8" id="contact-us">
+    <!-- Contact Us Section Start  -->
+    <section class="part8" id="contact-us">
         <div class="contact-form" data-aos="zoom-in">
-            <!-- <div class="p8-head">
-                    <h1>Contact Us</h1>
-                </div> -->
             <form action="#">
                 <div class="name text-box">
                     <label for="name">Name</label>
@@ -274,16 +305,21 @@
             <h1 id="query">Queries ?</h1>
             <h2>Get In Touch</h2>
         </div>
-    </div>
+    </section>
+    <!-- Contact Us Section End -->
 
+    <!-- Footer Start -->
     <div class="part9">
         <footer>
             <p>&copy; ITM Coding Club</p>
         </footer>
     </div>
+
+    <!-- Footer End -->
     </div>
 
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="js/progressBar.js"></script>
     <script>
         AOS.init({
             offset: 200,
