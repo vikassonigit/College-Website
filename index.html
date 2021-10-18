@@ -9,10 +9,10 @@
 
     <!-- css links -->
     <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="css/slider.css">
-    <link rel="stylesheet" href="css/navbar.css">
-
-
+    <link rel="stylesheet" href="css/slider.css" />
+    <link rel="stylesheet" href="css/navbar.css" />
+    <link rel="stylesheet" href="css/progressBar.css" />
+    <link rel="stylesheet" href="css/waveAnim.css">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
     <!-- title -->
@@ -22,6 +22,9 @@
 <body>
 
     <!-- Nav Bar Start -->
+    <!-- Progress Bar -->
+    <div id="progressBar"></div>
+    <div id="scrollPath"></div>
     <nav>
         <div class="logo-cc-cc">
             <a href="#top">
@@ -82,61 +85,23 @@
             <!-- div for tagline  -->
         </div>
         <!-- Div for  -->
-        <svg viewbox="0 0 1440 320" xmlns="http://www.w3.org/2000/svg">
-            <defs>
-                <style type="text/css">
-                    .wave {
-                        animation: wave 8s linear infinite;
-                    }
-
-                    .wave1 {
-                        animation: wave1 10s linear infinite;
-                    }
-
-                    .wave2 {
-                        animation: wave2 12s linear infinite;
-                    }
-
-                    @keyframes wave {
-                        0% {
-                            transform: translateX(0%);
-                        }
-
-                        100% {
-                            transform: translateX(100%);
-                        }
-                    }
-
-                    @keyframes wave1 {
-                        0% {
-                            transform: scaleY(1.2) translateX(0%);
-                        }
-
-                        100% {
-                            transform: scaleY(1.2) translateX(100%);
-                        }
-                    }
-
-                    @keyframes wave2 {
-                        0% {
-                            transform: scaleY(.8) translateX(0%);
-                        }
-
-                        100% {
-                            transform: scaleY(.8) translateX(100%);
-                        }
-                    }
-                </style>
-                <path id='sineWave' fill="#1b1b1b" fill-opacity=".9"
-                    d="M0,160 C320,300,420,300,740,160 C1060,20,1120,20,1440,160 V0 H0" />
-            </defs>
-            <use class="wave" href="#sineWave" />
-            <use class="wave" x="-100%" href="#sineWave" />
-            <use class="wave1" href="#sineWave" />
-            <use class="wave1" x="-100%" href="#sineWave" />
-            <use class="wave2" href="#sineWave" />
-            <use class="wave2" x="-100%" href="#sineWave" />
-        </svg>
+        <div class="waveWrapper waveAnimation" style="z-index: -500;">
+            <div class="waveWrapperInner bgTop">
+                <div class="wave waveTop"
+                    style="background-image: url('http://front-end-noobs.com/jecko/img/wave-top.png')">
+                </div>
+            </div>
+            <div class="waveWrapperInner bgMiddle">
+                <div class="wave waveMiddle"
+                    style="background-image: url('http://front-end-noobs.com/jecko/img/wave-mid.png')">
+                </div>
+            </div>
+            <div class="waveWrapperInner bgBottom">
+                <div class="wave waveBottom"
+                    style="background-image: url('http://front-end-noobs.com/jecko/img/wave-bot.png')">
+                </div>
+            </div>
+        </div>
     </section>
     <!-- Slider End  -->
 
@@ -319,12 +284,9 @@
     <!-- Contact Us Section Start  -->
     <section class="part8" id="contact-us">
         <div class="contact-form" data-aos="zoom-in">
-            <!-- <div class="p8-head">
-                    <h1>Contact Us</h1>
-                </div> -->
             <form action="#">
                 <div class="name text-box">
-                    <label for="name">Name</label>
+                    <!-- <label for="name">Name</label> -->
                     <input type="text" id="name" placeholder="Enter Your Name" required />
                 </div>
                 <div class="Email text-box">
@@ -359,6 +321,7 @@
     </div>
 
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="js/progressBar.js"></script>
     <script>
         AOS.init({
             offset: 200,

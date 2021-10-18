@@ -16,7 +16,7 @@ body {
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
-	height: 90vh;
+	height: 110vh;
 }
 
 #coding-vector {
@@ -391,13 +391,4 @@ textarea {
 
 body {
 	font-family: Verdana, sans-serif;
-}
-
-/* Div end animation */
-body {
-	margin: 0;
-}
-
-svg {
-	width: 100%;
 }
