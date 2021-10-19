@@ -97,19 +97,28 @@ body {
 	line-height: 2rem;
 }
 
+
+
 .part4 {
-	height: 110vh;
+	height: min-content ;
+	padding: 3rem 0rem;
 	background-color: #1b1b1b;
 }
+
 .p4-head {
-	text-align: center;
+	width: 41%;
+	display: flex;
+	flex-direction: column;
+	text-align: left;
+	justify-content: flex-start;
+	align-items: center;
 	font-family: "Anton", sans-serif;
 	letter-spacing: 0.1rem;
-	font-size: 4rem;
+	font-size: 3.5rem;
 	font-weight: 500;
-	margin-bottom: 5rem;
-	padding-top: 7rem;
+	padding: 1rem;
 	color: white;
+	text-shadow: 5px 5px 2rem red;
 }
 
 .p4-sub {
@@ -118,9 +127,21 @@ body {
 	width: 100%;
 }
 
+.p4-section{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin-bottom: 3rem;
+}
+
+.coding-club-card{
+	display: flex;
+	justify-content: flex-start;
+}
+
 .chapter-cards {
-	width: 15rem;
-	height: 21rem;
+	width: 12rem;
+	height: 18rem;
 	padding: 2rem 1rem;
 	background: #1b1b1b;
 	display: flex;
@@ -176,12 +197,19 @@ body {
 	transform: translateY(1.9rem);
 	transition: 0.5s all;
 	color: #fff;
+	font-size: 0.9rem;
+	letter-spacing: 1px;
 }
 
 .chapter-cards:hover .info {
 	opacity: 1;
 	transform: translateY(0rem);
 }
+
+
+
+
+
 
 .part5 {
 	height: 110vh;
