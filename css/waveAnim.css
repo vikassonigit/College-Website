@@ -17,6 +17,7 @@
 	bottom: 0;
 	top: 0;
 	margin: auto;
+	z-index: -500;
 }
 .waveWrapperInner {
 	position: absolute;
