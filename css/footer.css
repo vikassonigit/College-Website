@@ -1,0 +1,56 @@
+.part9 {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.fa-twitter {
+	color: #1da1f2;
+	text-shadow: 0 0 50px #1da1f2;
+}
+
+.fa-instagram {
+	color: #bc2a8d;
+	text-shadow: 0 0 50px #bc2a8d;
+	margin-left: 2.5rem;
+}
+.fa-facebook {
+	color: #3b5998;
+	text-shadow: 0 0 50px #3b5998;
+	margin-left: 2.5rem;
+}
+.fa-linkedin-in {
+	color: #4066e4;
+	text-shadow: 0 0 50px #4066e4;
+	margin-left: 2.5rem;
+}
+.fa-youtube {
+	color: #ff0000;
+	text-shadow: 0 0 50px #ff0000;
+	margin-left: 2.5rem;
+}
+.separatorPill {
+	border: 5px solid red;
+	height: 7rem;
+	box-shadow: 0 0 20px red;
+	border-radius: 1rem;
+}
+.favicon:hover {
+	transform: translateY(-1rem);
+}
+.favicon {
+	transition: 0.325s ease-in-out;
+}
+.footerContent {
+	display: flex;
+	justify-content: left;
+	flex-direction: column;
+	text-align: left;
+	font-size: 1.5rem;
+}
+
+#copyright {
+	padding-bottom: 5px;
+}
+#emailID {
+	padding-top: 5px;
+}

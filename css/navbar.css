@@ -1,5 +1,7 @@
 /* importing fonts */
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Audiowide&display=swap");
+
 @font-face {
 	font-family: Overcame;
 	src: url(fonts/Overcame/*);
@@ -20,7 +22,8 @@
 	--transition: 0.3s;
 }
 .welcomeTxt {
-	font-family: "Overcame", regular;
+	padding-top: 4rem;
+	font-family: "Audiowide";
 	font-size: 72px;
 	text-align: center;
 }
@@ -72,7 +75,7 @@ nav {
 	position: fixed;
 	width: 100%;
 	font-size: 24px;
-	font-family: "Overcame";
+	font-family: "Audiowide";
 	height: 5rem;
 }
 
