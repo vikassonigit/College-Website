@@ -1,3 +1,15 @@
+.welcomeTxt {
+	padding-top: 0.5rem;
+	font-family: "Audiowide";
+	font-size: 52px;
+	text-align: center;
+}
+
+#codechef {
+	font-size: 48px;
+	opacity: 50%;
+}
+
 .mySlides {
 	display: none;
 }
@@ -25,7 +37,7 @@ img {
 /* Caption text */
 .text {
 	color: #f2f2f2;
-	font-size: 15px;
+	font-size: 1px;
 	padding: 8px 12px;
 	position: absolute;
 	bottom: 8px;

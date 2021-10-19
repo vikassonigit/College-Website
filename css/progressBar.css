@@ -9,6 +9,7 @@
 	height: 100%;
 	border-radius: 0.625rem;
 	background: rgba(14, 14, 14, 0.5);
+	z-index: 20;
 }
 #progressBar {
 	position: fixed;
@@ -19,6 +20,7 @@
 	border-radius: 0.625rem;
 	background: linear-gradient(to top, #008aff, #00ffe7);
 	animation: animate 5s linear infinite;
+	z-index: 20;
 }
 @keyframes animate {
 	0%,
