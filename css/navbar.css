@@ -19,6 +19,15 @@
 	--bg-color: #fcfcfc;
 	--transition: 0.3s;
 }
+.welcomeTxt {
+	font-family: "Overcame", regular;
+	font-size: 72px;
+	text-align: center;
+}
+#codechef {
+	font-size: 50px;
+	opacity: 50%;
+}
 
 html {
 	scroll-behavior: smooth;
