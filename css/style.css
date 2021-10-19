@@ -101,12 +101,12 @@ body {
 
 .part4 {
 	height: min-content ;
-	padding: 3rem 0rem;
+	padding: 9rem 0rem 6rem 0rem;
 	background-color: #1b1b1b;
 }
 
 .p4-head {
-	width: 41%;
+	width: 32%;
 	display: flex;
 	flex-direction: column;
 	text-align: left;
@@ -123,7 +123,7 @@ body {
 
 .p4-sub {
 	display: flex;
-	justify-content: center;
+	justify-content: flex-start;
 	width: 100%;
 }
 
@@ -134,14 +134,19 @@ body {
 	margin-bottom: 3rem;
 }
 
+.Volunteers-card{
+	display: flex;
+	justify-content: flex-start;
+}
+
 .coding-club-card{
 	display: flex;
 	justify-content: flex-start;
 }
 
 .chapter-cards {
-	width: 12rem;
-	height: 18rem;
+	width: 13rem;
+	height: 19rem;
 	padding: 2rem 1rem;
 	background: #1b1b1b;
 	display: flex;
@@ -190,6 +195,12 @@ body {
 	border-radius: 1.2rem;
 }
 
+.info > h1{
+	font-size: 1.6rem;
+	color: #fff;
+	font-weight: lighter;
+	margin-bottom: .3rem;
+}
 .chapter-cards .info {
 	position: relative;
 	z-index: 3;
@@ -197,7 +208,7 @@ body {
 	transform: translateY(1.9rem);
 	transition: 0.5s all;
 	color: #fff;
-	font-size: 0.9rem;
+	font-size: 0.8rem;
 	letter-spacing: 1px;
 }
 
@@ -280,7 +291,7 @@ body {
 }
 
 .p6-title {
-	font-size: 2rem;
+	font-size: 2.8rem;
 	font-family: "Anton", sans-serif;
 }
 
