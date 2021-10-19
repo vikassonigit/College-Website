@@ -7,20 +7,19 @@ img {
 }
 
 .sliderParent {
-	padding-top: 8.5vh;
-	height: 80vh;
-	/* background-color: #1b1b1b; */
+	padding-top: 10vh;
+	height: min-content;
 }
 .tagLine {
 	color: white;
+	
 }
 /* Slideshow container */
 .slideshow-container {
-	/* max-width: 1000px;*/
 	width: 100%;
 	position: relative;
 	margin: auto;
-	border: 8px solid blue;
+	border: 6px solid rgb(18, 84, 207);
 }
 
 /* Caption text */
@@ -45,9 +44,10 @@ img {
 
 /* The dots/bullets/indicators */
 .dot {
-	height: 15px;
-	width: 15px;
+	height: 10px;
+	width: 10px;
 	margin: 0 2px;
+	margin-top: 2rem;
 	background-color: #bbb;
 	border-radius: 50%;
 	display: inline-block;

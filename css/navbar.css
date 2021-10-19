@@ -22,14 +22,16 @@
 	--transition: 0.3s;
 }
 .welcomeTxt {
-	padding-top: 4rem;
+	padding-top: 3rem;
 	font-family: "Audiowide";
-	font-size: 72px;
+	font-size: 3rem;
 	text-align: center;
 }
 #codechef {
-	font-size: 50px;
+	font-size: 2rempx;
 	opacity: 50%;
+	padding-top: 0.1rem;
+
 }
 
 html {
@@ -45,6 +47,7 @@ html {
 
 ul {
 	list-style-type: none;
+	font-size: 1.3rem;
 }
 
 a {
@@ -76,7 +79,7 @@ nav {
 	width: 100%;
 	font-size: 24px;
 	font-family: "Audiowide";
-	height: 5rem;
+	height: 4.2rem;
 }
 
 .logo-cc-cc {
@@ -85,8 +88,8 @@ nav {
 }
 
 .logo-cc-cc img {
-	height: 8rem;
-	width: 8rem;
+	height: 7rem;
+	width: 7rem;
 }
 
 nav a {
