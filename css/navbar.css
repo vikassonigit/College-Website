@@ -16,7 +16,7 @@
 	--bold-font: 700;
 	--bolder-font: 900;
 	--primary-color: #619ddd;
-	--secondary-color: #06305c;
+	--secondary-color: #E49D22;
 	--primary-shadow: #8b8eaf;
 	--secondary-shadow: #a17a69;
 	--bg-color: #fcfcfc;
@@ -48,7 +48,7 @@ html {
 
 ul {
 	list-style-type: none;
-	font-size: 1.3rem;
+	font-size: 1.15rem;
 }
 
 a {
@@ -105,7 +105,7 @@ nav a:hover {
 
 nav ul {
 	display: flex;
-	gap: 6rem;
+	gap: 2rem;
 }
 
 .hamburger-menu {
