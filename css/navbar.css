@@ -3,12 +3,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Audiowide&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
 
-@font-face {
+/* @font-face {
 	font-family: Overcame;
 	src: url(fonts/Overcame/*);
 	font-family: Binary;
 	src: url(fonts/Binary/*);
-}
+} */
 /* Variables */
 :root {
 	--font-family: "Roboto Slab", serif;
@@ -16,7 +16,7 @@
 	--bold-font: 700;
 	--bolder-font: 900;
 	--primary-color: #619ddd;
-	--secondary-color: #06305c;
+	--secondary-color: #ecb8d0;
 	--primary-shadow: #8b8eaf;
 	--secondary-shadow: #a17a69;
 	--bg-color: #fcfcfc;
@@ -48,7 +48,7 @@ html {
 
 ul {
 	list-style-type: none;
-	font-size: 1.3rem;
+	font-size: 1.2rem; /* use this to change font size of navbar  */
 }
 
 a {
@@ -73,22 +73,22 @@ nav {
 	align-items: center;
 	justify-content: space-between;
 	background-color: var(--bg-color);
-	padding: 1.5rem 3.5rem;
+	padding: 1.5rem 3rem;
 	box-shadow: 0px 4px 20px 6px rgb(0 0 0 / 50%);
 	background-color: #1a242e;
 	position: fixed;
 	width: 100%;
 	font-size: 24px;
 	font-family: "Audiowide";
-	height: 4.2rem;
+	height: 3.5rem;
 }
 
-.logo-cc-cc {
+.logo-cc {
 	height: 3rem;
 	width: 3rem;
 }
 
-.logo-cc-cc img {
+.logo-cc img {
 	height: 7rem;
 	width: 7rem;
 }
@@ -105,7 +105,7 @@ nav a:hover {
 
 nav ul {
 	display: flex;
-	gap: 6rem;
+	gap: 1rem; /* change this to change the gap between the navbar items*/
 }
 
 .hamburger-menu {

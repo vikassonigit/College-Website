@@ -19,12 +19,11 @@ img {
 }
 
 .sliderParent {
-	padding-top: 10vh;
+	padding-top: 8.45vh;
 	height: min-content;
 }
 .tagLine {
 	color: white;
-	
 }
 /* Slideshow container */
 .slideshow-container {
