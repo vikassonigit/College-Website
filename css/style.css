@@ -97,10 +97,8 @@ body {
 	line-height: 2rem;
 }
 
-
-
 .part4 {
-	height: min-content ;
+	height: min-content;
 	padding: 9rem 0rem 6rem 0rem;
 	background-color: #1b1b1b;
 }
@@ -127,19 +125,19 @@ body {
 	width: 100%;
 }
 
-.p4-section{
+.p4-section {
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
 	margin-bottom: 3rem;
 }
 
-.Volunteers-card{
+.Volunteers-card {
 	display: flex;
 	justify-content: flex-start;
 }
 
-.coding-club-card{
+.coding-club-card {
 	display: flex;
 	justify-content: flex-start;
 }
@@ -195,11 +193,11 @@ body {
 	border-radius: 1.2rem;
 }
 
-.info > h1{
+.info > h1 {
 	font-size: 1.6rem;
 	color: #fff;
 	font-weight: lighter;
-	margin-bottom: .3rem;
+	margin-bottom: 0.3rem;
 }
 .chapter-cards .info {
 	position: relative;
@@ -216,11 +214,6 @@ body {
 	opacity: 1;
 	transform: translateY(0rem);
 }
-
-
-
-
-
 
 .part5 {
 	height: 110vh;

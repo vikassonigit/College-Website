@@ -1,6 +1,7 @@
 /* importing fonts */
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Audiowide&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
 
 @font-face {
 	font-family: Overcame;
@@ -22,16 +23,16 @@
 	--transition: 0.3s;
 }
 .welcomeTxt {
-	padding-top: 3rem;
-	font-family: "Audiowide";
+	padding-top: 2.125rem;
+	font-family: "Righteous", cursive;
 	font-size: 3rem;
 	text-align: center;
+	letter-spacing: 2px;
 }
 #codechef {
 	font-size: 2rempx;
 	opacity: 50%;
 	padding-top: 0.1rem;
-
 }
 
 html {

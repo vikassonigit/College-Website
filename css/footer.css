@@ -2,7 +2,9 @@
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
+	height: 70vh;
 }
+
 .fa-twitter {
 	color: #1da1f2;
 	text-shadow: 0 0 50px #1da1f2;
@@ -30,7 +32,7 @@
 }
 .separatorPill {
 	border: 5px solid red;
-	height: 5.5rem;
+	height: 15rem;
 	box-shadow: 0 0 20px red;
 	border-radius: 1rem;
 }
@@ -48,9 +50,54 @@
 	font-size: 1.2rem;
 }
 
-#copyright {
+#copyrightDiv {
+	margin-top: none;
+	padding-right: 2rem;
 	padding-bottom: 5px;
 }
+
 #emailID {
-	padding-top: 5px;
+	padding-top: 20px;
+}
+
+#addressDiv {
+	padding-top: 2.5rem;
+}
+#address {
+	color: white;
+	font-style: normal;
+	padding-bottom: 20px;
+}
+#itmAddr > span {
+	display: block;
+}
+#itmAddr {
+	padding-left: 1rem;
+}
+#addrDiv {
+	display: flex;
+	align-items: center;
+}
+#phoneDiv {
+	padding-bottom: 20px;
+}
+#phoneIcon {
+	padding-right: 0.5rem;
+}
+.phone {
+	color: white;
+	font-style: normal;
+}
+.aboutFtr {
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+}
+#aboutHeadingFtr {
+	padding-bottom: 1rem;
+}
+#aboutContentFtr {
+	text-align: center;
+	width: 20rem;
+	font-size: 1rem;
+	opacity: 50%;
 }
