@@ -30,9 +30,11 @@
 	text-shadow: 0 0 50px #ff0000;
 	margin-left: 2.5rem;
 }
+
 .separatorPill {
+	width: 0;
 	border: 5px solid red;
-	height: 15rem;
+	height: 20rem;
 	box-shadow: 0 0 20px red;
 	border-radius: 1rem;
 }
@@ -49,59 +51,70 @@
 	text-align: left;
 	font-size: 1.1rem;
 }
-.fa-map-marker {
-	padding-bottom: 1rem;
+
+#footer-left-pannel-icons{
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 50%;
+	background-color: #464545;
+	padding: 1.5rem;
+	height:  1.3rem;
+	width: 1.3rem;
+	margin-right: .6rem;
 }
-#copyrightDiv {
-	margin-top: none;
-	padding-right: 2rem;
-	padding-bottom: 5px;
+.addr-icon{
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
 }
-#emailID {
-	padding-top: 20px;
-}
-#addressDiv {
-	padding-top: 2.5rem;
-}
+
 #address {
 	color: white;
 	font-style: normal;
-	padding-bottom: 20px;
 }
 #itmAddr > span {
 	display: block;
 }
 #itmAddr {
-	padding-left: 1rem;
+	display: inline-flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+	margin-top: .6rem;
+	font-style: normal;
 }
-#addrDiv {
+.addrDiv {
 	display: flex;
 	align-items: center;
-}
-#phoneDiv {
-	padding-bottom: 20px;
-}
-#phoneIcon {
-	padding-right: 0.5rem;
-}
+}	
+
 .phone {
 	color: white;
 	font-style: normal;
 }
-.committeeFtr {
-	padding-top: 2.5rem;
-	padding-bottom: 1rem;
-}
+
 #committeeHeadingFtr {
 	padding-bottom: 1rem;
+	letter-spacing: 1px;
 }
 #committeeContentFtr {
 	text-align: center;
-	width: 22rem;
-	font-size: 1rem;
-	opacity: 50%;
-	font-size: 15px;
+	width: 28rem;
+	font-size: .8rem;
+	opacity: 70%;
 }
+
+#committeeContentFtr > span{
+	display: block;
+	padding: .6rem 0rem;
+}
+
 #committeeContentFtr p {
 	padding-bottom: 1rem;
+}
+
+.cntct-icon{
+	margin-bottom: .8rem;
+	font-size: 1rem;
 }

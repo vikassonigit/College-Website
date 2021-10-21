@@ -93,19 +93,22 @@ nav {
 	width: 7rem;
 }
 
+
+
+
 nav a {
 	color: var(--primary-color);
 	transition: var(--transition);
 }
 
 nav a:hover {
-	color: var(--secondary-color);
+	color: orange;
 	border-bottom: 2px solid --secondary-color;
 }
 
 nav ul {
 	display: flex;
-	gap: 1rem; /* change this to change the gap between the navbar items*/
+	gap: 3.4rem; /* change this to change the gap between the navbar items*/
 }
 
 .hamburger-menu {
@@ -128,10 +131,14 @@ nav.active {
 	background-color: var(--bg-color);
 	padding: 1.5rem 3rem;
 	box-shadow: 0px 4px 20px 6px rgb(0 0 0 / 50%);
-	background-color: white; /* to change the color of nav bar after scroll replace the background-color from here*/
+	background-color: rgba(255, 255, 255, 0.9); /* to change the color of nav bar after scroll replace the background-color from here*/
 	position: fixed;
 	width: 100%;
 	font-size: 24px;
 	font-family: "Audiowide";
 	height: 3.5rem;
+}
+
+.nav-items{
+	width: 50%;
 }
