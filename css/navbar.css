@@ -116,3 +116,22 @@ nav ul {
 	cursor: pointer;
 	display: none;
 }
+
+nav.active {
+	display: flex;
+	position: sticky;
+	top: 0;
+	left: 0;
+	z-index: 1;
+	align-items: center;
+	justify-content: space-between;
+	background-color: var(--bg-color);
+	padding: 1.5rem 3rem;
+	box-shadow: 0px 4px 20px 6px rgb(0 0 0 / 50%);
+	background-color: white; /* to change the color of nav bar after scroll replace the background-color from here*/
+	position: fixed;
+	width: 100%;
+	font-size: 24px;
+	font-family: "Audiowide";
+	height: 3.5rem;
+}
