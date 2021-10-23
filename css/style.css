@@ -224,6 +224,27 @@ body {
 	transform: translateY(0rem);
 }
 
+.social-handles {
+	height: .4rem;
+	display: flex;
+	justify-content: flex-start;
+	align-items: flex-start;
+	padding-top: .5rem;
+	padding-bottom:.5rem ;
+}
+
+.social-handles i {
+	font-size: 1.3rem;
+	margin: .1rem;
+	padding: .4rem;
+	color: white;
+	transition: .325s;
+}
+
+.social-handles i:hover{
+	transform: translateY(-.3rem);
+}
+
 .part5 {
 	height: 110vh;
 	display: flex;
@@ -391,6 +412,8 @@ textarea {
 	font-size: 1rem;
 	font-family: Georgia, "Times New Roman", Times, serif;
 }
+
+
 
 .email-box{
 	border: 2px solid green;
