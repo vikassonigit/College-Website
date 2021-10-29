@@ -243,6 +243,7 @@ body {
 
 .social-handles i:hover{
 	transform: translateY(-.3rem);
+	border-radius: .5rem;
 }
 
 .part5 {
